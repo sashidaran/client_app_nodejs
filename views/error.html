@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Simple hello world</title>
+        <style>
+            .header {
+                text-align: center;
+                color:chocolate;
+            }
+            body {
+                background-image: url('/images/nature_img.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed; 
+                background-size: 100% 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="header"><%= errorHeader %></h1>
+        <div>
+        <label><%= errorMessage %></label>
+        </div>
+        <form method='GET' action="/">
+            <input type="submit" id="back" value="Back" />
+        </form>
+    </body>
+</html>
